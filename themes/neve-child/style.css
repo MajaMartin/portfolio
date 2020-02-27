@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Neve Child
+ Theme URI:    http://majamartin.com/neve-child/
+ Description:  Neve Child Theme
+ Author:       Maja Martin
+ Author URI:   http://majamartin.com
+ Template:     neve
+ Version:      1.0.5
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  nevechild
+*/
+
+
+body {
+
+   background-color: #ffffff;
+}
+
+p {
+  font-family: "Josefin Sans";
+}
+
+h1, h2 {
+  font-family: "Amatic SC";
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], 
+div.wpforms-container-full .wpforms-form button[type=submit] 
+{
+    background-color: #ffffff; /* hvid background-farve */
+    border: 1px solid #000000; /* sort border */
+    color: #ca9961; /* orange tekstfarve */
+    border-radius: 10px; /* runde hjørner på rammen */
+    font-size: 1em; /* tekststørrelse */
+    padding: 10px 15px; /* Mellemrum mellem tekst og border */
+
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form input[type=submit]:focus, div.wpforms-container-full .wpforms-form input[type=submit]:active, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:focus, div.wpforms-container-full .wpforms-form button[type=submit]:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
+    background-color: #4c5563; /* hover blå background-farve */
+    color: #9ea4ae; /* grå tekstfarve */
+    cursor: pointer;
+}
+
+
+
+
